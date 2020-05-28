@@ -101,8 +101,8 @@ def send_push(rain_message):
 
 
     conn.request("POST", "/1/messages.json",
-    urllib.parse.urlencode({"token": "ax924yb7p1pbq8gqz5gn1682sg4xz7",
-                     "user": "unsjti74smnqhabswtpuypeonk7goh",
+    urllib.parse.urlencode({"token": "INSERT YOUR TOKEN FROM PUSHOVER",
+                     "user": "INSERT YOUR USERID FROM PUSHOVER",
                      "message": rain_message,
                  }), {"Content-type": "application/x-www-form-urlencoded"})
     conn.getresponse()
